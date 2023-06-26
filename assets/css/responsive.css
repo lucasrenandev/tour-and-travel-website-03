@@ -1,0 +1,122 @@
+@media (max-width: 1130px) {
+    :root {
+        --h1-font: 4.5rem;
+        --h2-font: 2.8rem;
+    }
+
+    #header {
+        padding: 11px 2%;
+    }
+    #header.sticky {
+        padding: 7px 2%;
+    }
+
+    section {
+        padding: 60px 2% 50px;
+    }
+
+    .home {
+        height: 90vh;
+    }
+
+    .feature-content {
+        gap: 1.5rem;
+    }
+
+    .holiday, .culture {
+        gap: 3rem;
+    }
+
+    .home-text h3, 
+    .holiday-text h3,
+    .culture-text h3 {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 1050px) {
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transform: translateX(100%);
+        transition: transform 0.50s ease;
+    }
+    .navbar.open {
+        transform: translateX(0);
+    }
+
+    .nav-list {
+        width: 100%;
+        height: 100vh;
+        background-color: var(--bg-color);
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 40px;
+    }
+
+    .nav-list li {
+        margin-bottom: 2rem;
+    }
+
+    .nav-list li a {
+        display: block;
+        margin: 0;
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: #979797;
+    }
+
+    .holiday, 
+    .culture, 
+    .newsletter-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    :root {
+        --h1-font: 3rem;
+        --h2-font: 2.4rem;
+        --p-font: 15px;
+    }   
+
+    #header .logo {
+        font-size: 28px;
+    }
+
+    .home {
+        height: 85vh;
+    }
+
+    .home-text h3, 
+    .holiday-text h3,
+    .culture-text h3 {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 450px) {
+    .newsletter-content form {
+        grid-template-columns: 1fr;
+    }
+
+    .follow > a, 
+    .follow .social-icons a {
+        display: none;
+    }
+}
+
+@media (max-width: 369px) {
+    :root {
+        --h1-font: 2rem;
+        --h2-font: 1.6rem;
+        --p-font: 14px;
+    }
+}
