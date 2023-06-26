@@ -106,11 +106,13 @@
     .newsletter-content form {
         grid-template-columns: 1fr;
     }
+}
 
+@media (max-width: 400px) {
     .follow > a, 
     .follow .social-icons a {
         display: none;
-    }
+    } 
 }
 
 @media (max-width: 369px) {

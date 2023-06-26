@@ -297,7 +297,7 @@ section {
     left: 25px;
     font-size: 18px;
     font-weight: 500;
-    color: #ffffff;
+    color: var(--text-color);
 }
 
 .tour-content .box h6 {
@@ -388,7 +388,7 @@ section {
     background-color: #202020;
     padding: 0 15px;
     border-radius: 5px;
-    color: #fff;
+    color: var(--text-color);
     font-size: var(--p-font);
     font-weight: 400;
 }

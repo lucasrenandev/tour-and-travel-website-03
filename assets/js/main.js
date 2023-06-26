@@ -1,3 +1,5 @@
+'use strict'
+
 const header = document.getElementById("header")
 const menuIcon = document.getElementById("menu-icon")
 const navBar = document.querySelector(".navbar")
