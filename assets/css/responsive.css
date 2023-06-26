@@ -36,7 +36,8 @@
 
 @media (max-width: 1050px) {
     #menu-icon {
-        display: block;
+        display: inline-flex;
+        align-items: center;
     }
 
     .navbar {
